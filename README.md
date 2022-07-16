@@ -85,7 +85,6 @@ Output: 8
 ## List05
 
   You are given a list called numbers1 and numbers2.
-  Delete the last item in the first list and add that deleted item to the beginning of the second list.
   Merge the first list into the second and return.
 
 **Example 1:**
