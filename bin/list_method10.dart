@@ -7,4 +7,24 @@
         list: return answer
 */
 
-void main() {}
+List func(List fruits) {
+  List answer = [];
+  int w = 0;
+  for (int i = 0; i < fruits.length; i++) {
+    if (fruits[i] == 1) {
+      answer.add(i);
+      // w++;
+      }else
+        answer.add(i);
+        // w++;
+      
+      
+    }
+    answer.insert(0, w);
+    return answer;
+  
+}
+
+void main() {
+  print(func([1, 0, 0, 0, 1, 0, 1, 0]));
+}

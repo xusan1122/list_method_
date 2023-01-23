@@ -10,4 +10,13 @@
         list: return answer
 */
 
-void main() {}
+List func(List numbers1, List numbers2) {
+  numbers1.addAll(numbers2);
+  List answer = numbers1;
+  return answer;
+}
+
+void main() {
+  print(func([6,8,1], [3,5,7]));
+}
+

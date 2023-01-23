@@ -7,4 +7,17 @@
         int: return answer
 */
 
-void main() {}
+int func(List Fruits) {
+  int a=0;
+  for (int i = 0; i < Fruits.length; i ++) {
+    if (Fruits[i] == 'apple') {
+      a++;
+    }
+  
+  }
+  return a;
+}
+
+void main() {
+  print(func(['apple', 'banana', 'apple', 'pear']));
+}
