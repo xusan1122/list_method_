@@ -9,20 +9,20 @@
 
 List func(List fruits) {
   List answer = [];
+  int a = 0;
   int w = 0;
   for (int i = 0; i < fruits.length; i++) {
     if (fruits[i] == 1) {
-      answer.add(i);
-      // w++;
-      }else
-        answer.add(i);
-        // w++;
-      
-      
+      // answer.add(i);
+      a++;
+    } else {
+      // answer.add(i);
+      w++;
     }
-    answer.insert(0, w);
+  }
+    answer.add(a);
+    answer.add(w);
     return answer;
-  
 }
 
 void main() {
