@@ -8,15 +8,15 @@
 */
 
 List func(List fruits) {
-  // List answer=[];
+  List answer=[];
   for (int i = 0; i < fruits.length; i++) {
     if (fruits[i] == 'apple') {
-     fruits.remove('apple');
+    answer == fruits.remove('apple');
     }
   }
-    return fruits;
+    return answer;
 }
 
 void main() {
-  print(func(['apple', 'banana', 'apple', 'pear']));
+  print(func(['apple', 'banana', 'apple', 'pear','apple']));
 }
