@@ -8,13 +8,13 @@
 */
 
 List func(List fruits) {
-  List answer=[];
+  // List answer=[];
   for (int i = 0; i < fruits.length; i++) {
     if (fruits[i] == 'apple') {
-    answer == fruits.remove('apple');
+    fruits.remove('apple');
     }
   }
-    return answer;
+    return fruits;
 }
 
 void main() {
