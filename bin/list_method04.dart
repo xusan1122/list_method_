@@ -8,8 +8,10 @@
         list: return answer
 */
 
-int func(List number) {
-  int i = 2;
+// import 'dart:ffi';
+
+int func(List number, int i) {
+  // int i = 2;
   // List w = [];
   int answer;
   answer=number[i];
@@ -18,5 +20,5 @@ int func(List number) {
 }
 
 void main() {
-  print(func([1, 2, 3, 4, 5]));
+  print(func([1, 2, 3, 4, 5],2));
 }
