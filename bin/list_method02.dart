@@ -8,13 +8,11 @@
     Returns:
         list: return answer 
 */
-
 List func(List fruits, String x, int i) {
   fruits.insert(1,x);
   List answer = fruits;
   return answer;
 }
-
 void main() {
   print(func(['apple', 'banana'], 'kiwi',1));
 }
